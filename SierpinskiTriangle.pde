@@ -24,7 +24,7 @@ public void mousePressed()//optional
 }
 public void sierpinski(int x, int y, int len) 
 {
-	fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),5);
+	fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),15);
 	strokeWeight(.1);
 	if(len>num)
 	{
